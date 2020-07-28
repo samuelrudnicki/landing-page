@@ -2,20 +2,22 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, inital-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+        <meta name="viewport" content="width=device-width, inital-scale=1.0, minimum-scale=1.0, maximum-scale=1.0" />
         
         <title>Mock Beanies</title>
-        
+
         <link rel="stylesheet" href="/styles/styles.css">
     </head>
     <body>
         <header id="header">
-            <img id="header-img" src="images/mock_logo.png" alt="Mock Logo">
+            <a href=""><img id="header-img" src="images/mock_logo.png" alt="Mock Logo"></a>
             <nav id="nav-bar">
-                <a class="nav-link" href="#how-to">How to wear</a> |
-                <a class="nav-link" href="#products">Products</a> |
-                <a class="nav-link" href="#contact">Contact</a> |
-            </nav>
+                <ul>
+                    <li><a class="nav-link" href="#how-to">How to wear</a></li>
+                    <li><a class="nav-link" href="#products">Products</a></li>
+                    <li><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </nav> 
         </header>
 
         <main>
@@ -32,27 +34,47 @@
             </section>
             <section id="products">
                 <div class="product">
-                    <h3>Supa beanie</h3>
+                    <div class="product-name">
+                        <h3>Supa beanie</h3>
+                    </div>
                     <img class="product-img" src="images/beanie-1.jpg" alt="A beanie">
                     <h3>$30</h3>
                     <button class="btn">BUY NOW</button>
                 </div>
                 <div class="product">
-                    <h3>Cool beanie</h3>
+                    <div class="product-name">
+                        <h3>Cool beanie</h3>
+                    </div>
                     <img class="product-img" src="images/beanie-2.jpg" alt="A beanie">
                     <h3>$50</h3>
                     <button class="btn">BUY NOW</button>
                 </div>
                 <div class="product">
-                    <h3>Dope beanie</h3>
+                    <div class="product-name">
+                        <h3>Dope beanie</h3>
+                    </div>    
                     <img class="product-img" src="images/beanie-3.jpg" alt="A beanie">
                     <h3>$20</h3>
                     <button class="btn">BUY NOW</button>
                 </div>
             </section>
         </main>
-        <footer id="contact">
-            &copy; 2020 Mock Beanies. All Rights Reserved.
+        <footer id="footer">
+            <div id="contact">
+                <h3>Mock Beanies</h3>
+                <p id="contact-text">4732  Red Dog Road</p>
+                <p id="contact-text">Charlotte NC</p>
+                <p id="contact-text">704-277-9266</p>
+                <p id="contact-text">contact@mockbeanies.com</p>
+                <div id="footer-copyright">
+                    <div class="payment-icons">
+                        <img src="https://img.icons8.com/plasticine/80/000000/visa.png"/>
+                        <img src="https://img.icons8.com/plasticine/80/000000/mastercard.png"/>
+                        <img src="https://img.icons8.com/plasticine/80/000000/amex.png"/>
+                    </div>
+                    <p id="copyright-text">&copy; 2020 Mock Beanies. All Rights Reserved.</p>
+                </div>
+            </div>  
         </footer>
     </body>
 </html>
